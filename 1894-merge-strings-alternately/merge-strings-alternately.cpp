@@ -8,7 +8,7 @@ public:
        string result;// for printing result
 
        while(a < A && b < B){//while the pointer is not in the end of the word
-        result += word1[a];
+        result += word1[a];// including the character in the string from the word
         result += word2[b];
         a++; b++;
        }
