@@ -3,6 +3,7 @@ public:
     int maxProfit(vector<int>& prices) {
         int minvalue = INT_MAX;
         int maxprofit = 0;
+        if(prices.size()==1) return 0;
 
         for(int i : prices){
             if( minvalue > i ){
